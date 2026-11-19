@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Win32Utils">
+      <UniqueIdentifier>{47321767-278f-417e-84d9-822a0ea189da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CWindow">
+      <UniqueIdentifier>{6830a1ac-8261-4bf2-803c-cd302a8541db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win32Utils\CInputUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow\CDialogBase.cpp">
+      <Filter>CWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CDialogFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CIniHelperEx.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CPathUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CStrUtils.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Utils\CProcessUtilsEx.cpp">
+      <Filter>Win32Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32Utils\CInputUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow\CDialogBase.h">
+      <Filter>CWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CDialogFrame.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CIniHelperEx.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CPathUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CStrUtils.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Utils\CProcessUtilsEx.h">
+      <Filter>Win32Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LazyKeys.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon_lite.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="capture_ready.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="capture_start.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor.cur">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
